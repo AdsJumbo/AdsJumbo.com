@@ -22,10 +22,10 @@ Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Stud
 
 # Step 2: Add XAML code
 Add in your xaml file (eg. MainPage.xaml) following code:<br/>
-a) In the Header section:
+- In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
-b) In the Grid or anywhere on the XAML page just add Ad tag:<br/>
+- In the Grid or anywhere on the XAML page just add Ad tag:<br/>
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
 Go to https://adsjumbo.com/login
 
