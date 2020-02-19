@@ -17,17 +17,18 @@ These are full-screen ads that typically require the user to click through to co
 These are component-based ads - each piece of the advertiser's creative - is delivered to the app or web page as individual elements that you can choose to stitch into your page in any manner that fits your scenario the best. You can generate an ad creative optimizing on the style, look and feel and behavior to be very similar to the rest of your app screen or page in order to keep the most unobrtrusive end user experience.
 
 # Getting Started
-# Step 1: Adding NuGet package
+# Step 1: Adding References - NuGet package
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console, just click on button ‘Install‘ (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
 
-# Step 2: Add XAML code
-Add in your xaml file (eg. MainPage.xaml) following code:<br/>
+# Step 2: Add XAML code 
+Modify the XAML for the page where you are embedding advertising to include the using:AdsJumbo namespace.
+Add in your XAML file (eg. MainPage.xaml) following code:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
-Go to https://adsjumbo.com/login
+Get your Ad Tags at: https://adsjumbo.com/login
 
 # Support:
 If you have any technical questions or comments, please email us at:
