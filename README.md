@@ -29,6 +29,9 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
 Get your Ad Tags at: https://adsjumbo.com/login
 
+# Step 3: Submit the App to the Review process
+This step takes few hours, after that your ads will be live and you can see real-time reports under your dashboard and enjoy earnings!
+
 # Support:
 If you have any technical questions or comments, please email us at:
 info@adsjumbo.com
