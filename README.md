@@ -21,7 +21,7 @@ These are component-based ads - each piece of the advertiser's creative - is del
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console, just click on button ‘Install‘ (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
 
 # Step 2: Add XAML code 
-Modify the XAML for the page where you are embedding advertising to include the using:AdsJumbo namespace.
+Modify the XAML for the page where you are embedding advertising to include the using:AdsJumbo namespace.<br/>
 Add in your XAML file (eg. MainPage.xaml) following code:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
