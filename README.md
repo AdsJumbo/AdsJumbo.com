@@ -25,7 +25,7 @@ Add in your xaml file (eg. MainPage.xaml) following code:
 a) In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
-b) In the Grid or anywhere on the XAML page just add:
+b) In the Grid or anywhere on the XAML page just add:<br/>
 Ad tag which you get in your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG
 
 # Support:
