@@ -27,11 +27,7 @@ a) In the Header section:
 
 b) In the Grid or anywhere on the XAML page:
 <pre><code><adsjumbo:BannerAd 
-ApplicationId="756qsb64mvvs"
-WidthAd="160"
-HeightAd="600"
-Width="160"
-Height="600"/> </code></pre>
+ApplicationId="756qsb64mvvs"</code></pre>
 
 # Support:
 If you have any technical questions or comments, please email us at:
