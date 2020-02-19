@@ -22,6 +22,7 @@ Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Stud
 
 # Step 2: Add XAML code 
 Modify the XAML for the page where you are embedding advertising to include the using:AdsJumbo namespace.<br/>
+
 Add in your XAML file (eg. MainPage.xaml) following code:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
