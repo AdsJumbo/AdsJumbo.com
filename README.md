@@ -18,7 +18,18 @@ These are component-based ads - each piece of the advertiser's creative - is del
 
 # Getting Started
 Step 1: Adding NuGet package
-Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console, just click on button ‘Install‘
+Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console, just click on button ‘Install‘ (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
+
+Step 2: Add XAML code
+Add in your xaml file (eg. MainPage.xaml) following code:
+a) In the Header section:
+<pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
+
+b) In the Grid or anywhere on the XAML page:
+<pre><code><adsjumbo:BannerAd 
+                   ApplicationId='756qsb64mvvs'
+                   WidthAd='160'
+                   HeightAd='600' /></code></pre>
 
 # Support:
 If you have any technical questions or comments, please email us at:
