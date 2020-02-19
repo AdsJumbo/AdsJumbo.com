@@ -19,7 +19,7 @@ These are component-based ads - each piece of the advertiser's creative - is del
 # Getting Started
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console.<br/>
-Just click on button ‘Install‘ (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
+Just click on button ‘Install‘ and that's all. (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
 
 # Step 2: Add XAML code 
 Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
