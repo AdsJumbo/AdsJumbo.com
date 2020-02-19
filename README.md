@@ -8,12 +8,12 @@ This repository contains the AdsJumbo.com SDK for apps & games. This allows you 
 Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement it into your existing application or game (also Unity 3D game).
 
 # Ad Formats:
-# Banner Ads
+# 1. Banner Ads
 These are static display ads that utilize a portion of a page in an app or web site. These are typically located at the top, left or bottom of your primary content and prompt the users to install some apps or view brands or products. This is still the most popular ad format in the industry today.
-# Interstital Ads
+# 2. Interstital Ads
 These are full-screen ads that typically require the user to click through to continue with the app or the game. These generate more user engagement than standard banner ads and hence generate more ad revenue.
 
-# Native Ads
+# 3. Native Ads
 These are component-based ads - each piece of the advertiser's creative - is delivered to the app or web page as individual elements that you can choose to stitch into your page in any manner that fits your scenario the best. You can generate an ad creative optimizing on the style, look and feel and behavior to be very similar to the rest of your app screen or page in order to keep the most unobrtrusive end user experience.
 
 # Getting Started
