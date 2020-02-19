@@ -30,7 +30,19 @@ Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - 
 Get your Ad Tags at: https://adsjumbo.com/login
 
 # Step 3: Submit the App to the Review process
-This step takes few hours, after that your ads will be live and you can see real-time reports under your dashboard and enjoy earnings!
+This step takes few hours, after that your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+
+# Supporting Ad Sizes:
+Banner Ads:
+- 160x600
+- 728x90
+- 300x600
+- 160x1000 (Fulle Size Banner)
+- 320x50
+- 300x50
+
+Interstital Ads:
+- Fullscreen / Popup banner & video
 
 # Support:
 If you have any technical questions or comments, please email us at:
