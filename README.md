@@ -6,6 +6,10 @@ This repository contains the AdsJumbo.com SDK for apps & games. This allows you 
 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
+AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games
+If you have any questions about SDK or need help with implementation, please email us at:
+info@adsjumbo.com
+
 # Monetize with AdsJumbo Ads
 Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement it into your existing application or game (also Unity 3D game).
 
@@ -22,6 +26,9 @@ These are component-based ads - each piece of the advertiser's creative - is del
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console.<br/>
 Just click on button ‘Install‘ and that's all. (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
+
+Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
+<p><img src="https://adsjumbo.com/info/adsjumbo-contenturi.png"  width="550" alt=""></p>
 
 # Step 2: Add XAML code 
 Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
