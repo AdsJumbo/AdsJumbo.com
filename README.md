@@ -28,13 +28,13 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
-<p><img src="https://adsjumbo.com/info/adsjumbo-nuget.png"  width="500" alt=""></p>
+<p><img src="https://adsjumbo.com/info/adsjumbo-nuget.png"  width="550" alt=""></p>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
 Get your Ad Tags at: https://adsjumbo.com/login
 
-<p><img src="https://adsjumbo.com/info/adsjumbo-xaml.png"  width="500" alt=""></p>
+<p><img src="https://adsjumbo.com/info/adsjumbo-xaml.png"  width="550" alt=""></p>
 
 # Step 3: Submit the App to the Review process
 This step takes few hours, after that your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
