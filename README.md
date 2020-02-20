@@ -4,6 +4,8 @@
 # AdsJumbo.com-SDK: Advertising SDK
 This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store. https://AdsJumbo.com
 
+Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
+
 # Monetize with AdsJumbo Ads
 Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement it into your existing application or game (also Unity 3D game).
 
