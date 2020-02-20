@@ -6,7 +6,7 @@ This repository contains the AdsJumbo.com SDK for apps & games. This allows you 
 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
-AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games
+AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games</br>
 If you have any questions about SDK or need help with implementation, please email us at:
 info@adsjumbo.com
 
@@ -25,7 +25,7 @@ These are component-based ads - each piece of the advertiser's creative - is del
 # Getting Started
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console.<br/>
-Just click on button ‘Install‘ and that's all. (Dont forget to install all depencies Newtonsoft.Json>= 9.0.1)
+Just click on button ‘Install‘ and that's all. (Don't forget to install all depencies Newtonsoft.Json>= 9.0.1)
 
 Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
 <p><img src="https://adsjumbo.com/info/adsjumbo-contenturi.png"  width="550" alt=""></p>
