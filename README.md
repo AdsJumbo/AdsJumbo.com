@@ -37,7 +37,8 @@ Get your Ad Tags at: https://adsjumbo.com/login
 <p><img src="https://adsjumbo.com/info/adsjumbo-xaml.png"  width="550" alt=""></p>
 
 # Step 3: Submit the App to the Review process
-This step takes few hours, after that your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+Hit the button "Request Activation"</br>
+When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
 
 # Supporting Ad Sizes:
 Banner Ads:
