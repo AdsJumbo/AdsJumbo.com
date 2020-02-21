@@ -47,7 +47,7 @@ Get your Ad Tags at: https://adsjumbo.com/login
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 
 - NOTE: For Unity3D Games, please remove from .csproj file following block:
-<pre><code>AllowedReferenceRelatedFileExtensions"</code></pre>
+<pre><code>AllowedReferenceRelatedFileExtensions</code></pre>
  
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
