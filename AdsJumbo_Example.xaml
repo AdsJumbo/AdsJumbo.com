@@ -13,7 +13,7 @@
 
         <!-- Interstitial Ad - this means POPUP ads -->
 
-        <adsjumbo:InterstitialAd x:Name="InterstitialAd" ApplicationId="ldm98idv4gr6"/>
+        <adsjumbo:InterstitialAd x:Name="InterstitialAd" ApplicationId="your_app_id"/>
 
         <!-- Now in the code invoke InterstitialAd.ShowInterstitialAd(); to show ad -->
 
