@@ -42,12 +42,12 @@ Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - 
 Get your Ad Tags at: https://adsjumbo.com/login
 
 <p><img src="https://adsjumbo.com/info/adsjumbo-xaml.png"  width="550" alt=""></p>
----
+
 - NOTE: For interstitial ad, please invoke in C# code in the appropriate moment (use as many times as you like):
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 
-- NOTE: For Unity3D Games, please remove from .csproj file following row:
-<pre><code>"<AllowedReferenceRelatedFileExtensions></AllowedReferenceRelatedFileExtensions>"</code></pre>
+- NOTE: For Unity3D Games, please remove from .csproj file following block:
+<pre><code>AllowedReferenceRelatedFileExtensions"</code></pre>
  
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
