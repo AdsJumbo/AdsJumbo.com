@@ -1,0 +1,88 @@
+<Page
+      xmlns:adsjumbo="using:AdsJumbo" 
+      xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+      x:Class="_App.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:_App"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid x:Name="LayoutRoot">
+
+        <!-- Interstitial Ad - this means POPUP ads -->
+
+        <adsjumbo:InterstitialAd x:Name="InterstitialAd" ApplicationId="ldm98idv4gr6"/>
+
+        <!-- Now in the code invoke InterstitialAd.ShowInterstitialAd(); to show ad -->
+
+
+        <!-- 
+        Display Ad - this means BANNER ads
+        Please Specify: 
+        1. Position: Bottom, Top, Left, Right, Center 
+        2. WidthAd and HeightAd
+        -->
+
+        <!-- Ad Banner 160x600, position "Left" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="160" 
+                      HeightAd="600" 
+                      Position="Left" />
+
+        <!-- Ad Banner 160x600, position "Right" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="160" 
+                      HeightAd="600" 
+                      Position="Right" />
+
+        <!-- Ad Banner 728x90, position "Bottom" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="728"
+                      HeightAd="90" 
+                      Position="Bottom" />
+
+        <!-- Ad Banner 300x250, position "Center" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="300"
+                      HeightAd="250" 
+                      Position="Center" />
+
+        <!-- Ad Banner 300x600, position "Left" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="300"
+                      HeightAd="600" 
+                      Position="Left" />
+
+        <!-- Ad Banner 300x600, position "Right" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="300"
+                      HeightAd="600" 
+                      Position="Right" />
+
+        <!-- Ad Banner 320x50, position "Bottom" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="320"
+                      HeightAd="50" 
+                      Position="Bottom" />
+
+        <!-- Ad Banner 300x50, position "Bottom" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="300"
+                      HeightAd="50" 
+                      Position="Bottom" />
+
+        <!-- Ad Banner 160x1000, position "Left" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="160"
+                      HeightAd="1000" 
+                      Position="Left" />
+
+        <!-- Ad Banner 160x1000, position "Right" -->
+        <adsjumbo:BannerAd ApplicationId="your_app_id"
+                      WidthAd="160"
+                      HeightAd="1000" 
+                      Position="Right" />
+    </Grid>
+</Page>
