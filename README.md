@@ -66,13 +66,13 @@ Interstital Ads:
 - Fullscreen / Popup banner & video
 
 # Examples:
-For Windows 10 Project, please download and open:
+- For Windows 10 Project, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example</a>
 
-For Unity3D game - Windows 10, please download and open:
+- For Unity3D game - Windows 10, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Unity3D</a>
 
-Download all examples: https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip
+Download all examples: a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
 
 # Support:
 If you have any technical questions or comments, please email us at:
