@@ -58,7 +58,7 @@ Banner Ads:
 - 160x600
 - 728x90
 - 300x600
-- 160x1000 (Fulle Size Banner)
+- 160x1000 (Full Size Banner)
 - 320x50
 - 300x50
 
