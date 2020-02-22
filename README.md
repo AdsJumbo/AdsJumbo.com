@@ -63,7 +63,7 @@ Banner Ads:
 - 300x50
 
 Interstital Ads:
-- Fullscreen / Popup banner & video
+- Fullscreen / Popup Banner & Video
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
