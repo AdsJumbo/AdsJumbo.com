@@ -2,9 +2,9 @@
 <img src="https://adsjumbo.com/windows-store.png" width="100" alt="AdsJumbo.com - Windows Store Advertising SDK" data-canonical-src="https://adsjumbo.com/windows-store.png">
 
 # AdsJumbo.com-SDK: Advertising SDK
-This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store. https://AdsJumbo.com
+This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store. <a href="https://adsjumbo.com" href="blank">https://AdsJumbo.com</a>
 
-Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
+Download at NuGet: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip" href="blank">https://www.nuget.org/packages/AdsJumbo/</a>
 
 AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games</br>
 If you have any questions about SDK or need help with implementation, please email us at:
