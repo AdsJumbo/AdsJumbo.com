@@ -49,6 +49,8 @@ namespace AdsJumbo_Example_Unity3D
             appCallbacks.SetBridge(_bridge);
 
             bool isWindowsHolographic = false;
+            
+            InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed;
 
 #if UNITY_HOLOGRAPHIC
             // If application was exported as Holographic check if the deviceFamily actually supports it,
@@ -119,6 +121,11 @@ namespace AdsJumbo_Example_Unity3D
 
             // NOTE: 
             // LIVE ADS ARE AVAILABLE WHEN YOUR APP / GAME IS APPROVED, JUST HIT BUTTON "SUBMIT TO REVIEW" - Don't worry, our fill rate is 100% worldwide to maximize your revenue from ads
+        }
+        
+        private void InterstitialAd_OnAdClosed(object sender, RoutedEventArgs e)
+        {
+            // When an Interstitial Ad is closed, just resume app / game according to your requirements
         }
 
         private void OnResize()
