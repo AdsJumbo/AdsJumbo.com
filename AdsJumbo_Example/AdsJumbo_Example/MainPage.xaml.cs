@@ -12,6 +12,8 @@ namespace AdsJumbo_Example
         public MainPage()
         {
             this.InitializeComponent();
+            
+            InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed;
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -29,6 +31,10 @@ namespace AdsJumbo_Example
 
             // NOTE: 
             // LIVE ADS ARE AVAILABLE WHEN YOUR APP / GAME IS APPROVED, JUST HIT BUTTON "SUBMIT TO REVIEW" - Don't worry, our fill rate is 100% worldwide to maximize your revenue from ads
+        }
+        private void InterstitialAd_OnAdClosed(object sender, RoutedEventArgs e)
+        {
+            // When an Interstitial Ad is closed, just resume app / game according to your requirements
         }
     }
 }
