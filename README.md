@@ -66,7 +66,7 @@ Interstital Ads:
 - Fullscreen / Popup Banner & Video
 
 # Events:
-OnAdClosed = Interstitial Closed Event
+OnAdClosed = When an Interstitial Ad is closed
 <pre><code>InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed;</code></pre>
 
 # Examples:
