@@ -65,6 +65,10 @@ Banner Ads:
 Interstital Ads:
 - Fullscreen / Popup Banner & Video
 
+# Events:
+OnAdClosed = When Interstitial ad close
+<pre><code>InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed</code></pre>
+
 # Examples:
 - For Windows 10 Project, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example</a>
