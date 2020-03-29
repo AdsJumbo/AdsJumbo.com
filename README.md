@@ -16,7 +16,7 @@ Increase your revenue opportunities by putting ads in your apps by using the Ads
 # Ad Formats:
 # 1. Banner Ads
 These are static display ads that utilize a portion of a page in an app or web site. These are typically located at the top, left or bottom of your primary content and prompt the users to install some apps or view brands or products. This is still the most popular ad format in the industry today.
-# 2. Interstital Ads
+# 2. Interstitial Ads
 These are full-screen ads that typically require the user to click through to continue with the app or the game. These generate more user engagement than standard banner ads and hence generate more ad revenue.
 
 # 3. Native Ads
@@ -62,7 +62,7 @@ Banner Ads:
 - 320x50
 - 300x50
 
-Interstital Ads:
+Interstitial Ads:
 - Fullscreen / Popup Banner & Video
 
 # Events:
