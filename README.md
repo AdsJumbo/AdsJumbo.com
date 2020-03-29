@@ -10,6 +10,10 @@ AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games<
 If you have any questions about SDK or need help with implementation, please email us at:
 info@adsjumbo.com
 
+# UPDATE NOTES:
+- added OnAdClosed and OnAdError events
+- new banner sizes available (468x60)
+
 # Monetize with AdsJumbo Ads
 Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement it into your existing application or game (also Unity 3D game).
 
@@ -58,16 +62,23 @@ Banner Ads:
 - 160x600
 - 728x90
 - 300x600
-- 160x1000 (Full Size Banner)
+- 160x1000 (Full Size Skyscaper Banner)
 - 320x50
 - 300x50
+- 468x60
 
 Interstitial Ads:
 - Fullscreen / Popup Banner & Video
 
 # Events:
+Interstitial Ads:
 OnAdClosed = When an Interstitial Ad is closed
 <pre><code>InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed;</code></pre>
+OnAdError = When an Error Occurred on Interstitial Ad
+<pre><code>InterstitialAd.OnAdError += InterstitialAd_OnAdError;</code></pre>
+
+Banner Ads:
+OnAdError = When an Error Occurred on Banner Ad
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
@@ -77,6 +88,7 @@ OnAdClosed = When an Interstitial Ad is closed
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Unity3D</a>
 
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
+Please always install the latest version of the NuGet package.
 
 # Support:
 If you have any technical questions or comments, please email us at:
