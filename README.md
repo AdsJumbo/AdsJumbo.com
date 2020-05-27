@@ -67,14 +67,43 @@ Interstitial Ads:
 - Fullscreen / Popup Banner & Video
 
 # Events:
-Interstitial Ads:
+ # Events for Banner Ads:
+OnAdError = When an Error Occurred on Banner Ad
+<pre><code>BannerAd.OnAdError += BannerAd_OnAdError;</code></pre>
+OnAdErrorNoAds = When No Ads are Available on Banner Ad
+<pre><code>BannerAd.OnAdErrorNoAds += BannerAd_OnAdErrorNoAds;</code></pre>
+
+ # Events for Interstitial Ads:
 OnAdClosed = When an Interstitial Ad is closed
 <pre><code>InterstitialAd.OnAdClosed += InterstitialAd_OnAdClosed;</code></pre>
 OnAdError = When an Error Occurred on Interstitial Ad
 <pre><code>InterstitialAd.OnAdError += InterstitialAd_OnAdError;</code></pre>
+OnAdErrorNoAds = When an No Ads Available on Interstitial Ad
+<pre><code>InterstitialAd.OnAdErrorNoAds += InterstitialAd_OnAdErrorNoAds;</code></pre>
 
+# If you want to add programmatically:
 Banner Ads:
-OnAdError = When an Error Occurred on Banner Ad
+<pre><code>
+BannerAd bannerads = new BannerAd();
+bannerads.WidthAd = 728;                                        // Define Width Ad Unit
+bannerads.HeightAd = 90;                                        // Define Height Ad Unit
+bannerads.ApplicationId = "your_app_id";                        // Define Application ID
+bannerads.VerticalAlignment = VerticalAlignment.Bottom;         // Vertical Aligment
+bannerads.HorizontalAlignment = HorizontalAlignment.Center;     // Horizontal Aligment
+LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically
+</code></pre>
+
+Interstitial Ads:
+<pre><code>
+InterstitialAd interstitialads = new InterstitialAd();
+interstitialads.ApplicationId = "your_app_id";                  // Define Application ID
+LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically
+</code></pre>
+
+Invoke an Interstitial Ads:
+<pre><code>
+InterstitialAd.ShowInterstitialAd();
+</code></pre>
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
@@ -87,8 +116,8 @@ Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive
 Please always install the latest version of the NuGet package.
 
 # UPDATE NOTES:
-- added OnAdClosed and OnAdError events
-- added new sizes banners (size: 468x60)
+- added OnAdClosed, OnAdError, OnAdErrorNoAds events
+- Minor fixes
 
 # Support:
 If you have any technical questions or comments, please email us at:
