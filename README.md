@@ -55,8 +55,9 @@ When your game is approved, your ads will be live and you can see real-time repo
 
 # Supporting Ad Sizes:
 Banner Ads:
-- 160x600
 - 728x90
+- 160x600
+- 300x250
 - 300x600
 - 160x1000 (Full Size Skyscaper Banner)
 - 320x50
