@@ -60,7 +60,6 @@ Banner Ads:
 - 300x600
 - 160x1000 (Full Size Skyscaper Banner)
 - 320x50
-- 300x50
 - 468x60
 
 Interstitial Ads:
