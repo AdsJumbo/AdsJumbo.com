@@ -110,7 +110,7 @@ Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive
 Please always install the latest version of the NuGet package.
 
 # UPDATE NOTES:
-- added OnAdClosed, OnAdError, OnAdErrorNoAds events
+- Added OnAdClosed, OnAdError, OnAdErrorNoAds events
 - Minor fixes
 
 # Support:
