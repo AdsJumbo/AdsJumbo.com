@@ -83,27 +83,21 @@ OnAdErrorNoAds = When an No Ads Available on Interstitial Ad
 
 # If you want to add programmatically:
 Banner Ads:
-<pre><code>
-BannerAd bannerads = new BannerAd();
+<pre><code>BannerAd bannerads = new BannerAd();
 bannerads.WidthAd = 728;                                        // Define Width Ad Unit
 bannerads.HeightAd = 90;                                        // Define Height Ad Unit
 bannerads.ApplicationId = "your_app_id";                        // Define Application ID
 bannerads.VerticalAlignment = VerticalAlignment.Bottom;         // Vertical Aligment
 bannerads.HorizontalAlignment = HorizontalAlignment.Center;     // Horizontal Aligment
-LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically
-</code></pre>
+LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically</code></pre>
 
 Interstitial Ads:
-<pre><code>
-InterstitialAd interstitialads = new InterstitialAd();
+<pre><code>InterstitialAd interstitialads = new InterstitialAd();
 interstitialads.ApplicationId = "your_app_id";                  // Define Application ID
-LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically
-</code></pre>
+LayoutRoot.Children.Add(bannerads);                             // Load in Grid programmatically</code></pre>
 
 Invoke an Interstitial Ads:
-<pre><code>
-InterstitialAd.ShowInterstitialAd();
-</code></pre>
+<pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
