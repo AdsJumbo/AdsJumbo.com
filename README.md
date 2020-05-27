@@ -87,8 +87,8 @@ Banner Ads:
 bannerads.WidthAd = 728;                                            // Define Width Ad Unit
 bannerads.HeightAd = 90;                                            // Define Height Ad Unit
 bannerads.ApplicationId = "your_app_id";                            // Define Application ID
-bannerads.VerticalAlignment = VerticalAlignment.Bottom;             // Vertical Aligment
-bannerads.HorizontalAlignment = HorizontalAlignment.Center;         // Horizontal Aligment
+bannerads.VerticalAlignment = VerticalAlignment.Bottom;             // Vertical Alignment
+bannerads.HorizontalAlignment = HorizontalAlignment.Center;         // Horizontal Alignment
 LayoutRoot.Children.Add(bannerads);                                 // Load in Grid Programmatically</code></pre>
 
 Interstitial Ads:
