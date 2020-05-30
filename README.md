@@ -4,9 +4,14 @@
 # AdsJumbo.com-SDK: Advertising SDK
 This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store. https://AdsJumbo.com
 
-Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
+Download at NuGet: https://www.nuget.org/packages/AdsJumbo/ (The SDK is constantly updated and maintained)
 
 AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games</br>
+SDK is currently available for all UWP projects:
+C#             = NuGet package 
+C++ / DirectX  = NuGet package in C++, A download link is provided on request, please contact us.
+WinJS SDK      = SDK via Javascript is provided on the request, please contact us.
+
 If you have any questions about SDK or need help with implementation, please email us at:
 info@adsjumbo.com
 
@@ -107,7 +112,8 @@ Invoke an Interstitial Ads:
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Unity3D</a>
 
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
-Please always install the latest version of the NuGet package.
+
+Please always install the latest version of the NuGet package available at https://www.nuget.org/packages/AdsJumbo/
 
 # UPDATE NOTES:
 - Added OnAdClosed, OnAdError, OnAdErrorNoAds events
