@@ -113,7 +113,7 @@ Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visu
 Just click on button ‘Install‘ and that's all.<br/>
 Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
 
-# Step 2: Add XAML code and C++ code and invoke an advertisement 
+# Step 2: Add XAML code and C++ code
 Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
