@@ -45,6 +45,12 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
+<pre><code> <adsjumbo:BannerAd x:Name="banner" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"/>
+                           
+<adsjumbo:InterstitialAd x:Name="bannerInterstitial" /> </code></pre>
+
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
 Get your Ad Tags at: https://adsjumbo.com/login
 
@@ -69,6 +75,7 @@ Banner Ads:
 - 160x1000 (Full Size Skyscaper Banner)
 - 320x50
 - 468x60
+NOTE: The limit of ads units in the app is not limited, it is up to you.
 
 Interstitial Ads:
 - Fullscreen / Popup Banner & Video
