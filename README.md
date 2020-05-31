@@ -60,6 +60,7 @@ Get your Ad Tags at: https://adsjumbo.com/login
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+NOTE: The limit of ads units in the app is not limited, it's up to you.
 
 # Supporting Ad Sizes:
 Banner Ads:
@@ -70,7 +71,6 @@ Banner Ads:
 - 160x1000 (Full Size Skyscaper Banner)
 - 320x50
 - 468x60
-- NOTE: The limit of ads units in the app is not limited, it is up to you.
 
 Interstitial Ads:
 - Fullscreen / Popup Banner & Video
@@ -141,6 +141,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+NOTE: The limit of ads units in the app is not limited, it's up to you.
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
