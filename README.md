@@ -106,8 +106,8 @@ LayoutRoot.Children.Add(interstitialads);                           // Load in G
 Invoke an Interstitial Ads:
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 
-# For C++ / IL2CPP / DirectX:
-Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects only or IL2CPP Unity3D games
+# For C++ / IL2CPP / DirectX apps & games
+Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects and IL2CPP Unity3D games
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.Native’ in your nuget Package Manager console. Download latest version.<br/>
 Just click on button ‘Install‘ and that's all.<br/>
