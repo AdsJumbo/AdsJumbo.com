@@ -132,7 +132,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
  < adsjumbo:InterstitialAd x:Name="bannerInterstitial" / >
 </code> </pre>
 
-- For banner ad, please invoke in C++ code (define APP ID, width, height)
+- For banner ad, please invoke in C++ code (define APP ID, width ad, height ad)
 <pre><code>bannerLeft->showBanner("your_app_id", 160, 600);</code></pre>
 
 - For interstitial ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
