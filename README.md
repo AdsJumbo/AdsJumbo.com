@@ -11,7 +11,7 @@ AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games<
 # AdsJumbo SDK is available for all UWP projects.</br>
 <pre>
 C#              = <a href="https://www.nuget.org/packages/AdsJumbo/">NuGet package</a></br>
-C++ / DirectX   = <a href="mailto:info@adsjumbo.com">NuGet package for C++ apps</a>, A download link is provided on request, please contact us.</br>
+C++ / DirectX   = <a href="mailto:info@adsjumbo.com">NuGet package for C++ / IL2CPP apps</a>, A download link is provided on request, please contact us.</br>
 WinJS SDK       = SDK via Javascript is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>.
 </pre></br>
 If you have any questions about SDK or need help with implementation, please email us at:
