@@ -126,8 +126,9 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
-<pre><code><adsjumbo:BannerAd x:Name="bannerAd" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-<adsjumbo:InterstitialAd x:Name="bannerInterstitial" /></code></pre>
+<pre><code>
+<adsjumbo:BannerAd x:Name="bannerAd" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+</code></pre>
 
 - For banner ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
 <pre><code>bannerLeft->showBanner("your_app_id", 160, 600);</code></pre>
