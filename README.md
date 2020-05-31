@@ -113,11 +113,18 @@ Invoke an Interstitial Ads:
 - For Unity3D games - Windows 10, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Unity3D</a>
 
+- For C++ apps - Windows 10, please download and open:</br>
+<a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Native</a>
+
+- For IL2CPP Unity3D games - Windows 10, please download and open:</br>
+<a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_IL2CPP_Unity3D</a>
+
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
 
 Please always install the latest version of the NuGet package available at https://www.nuget.org/packages/AdsJumbo/
 
 # UPDATE NOTES:
+- New package for C++ / DirectX / IL2CPP 
 - Added OnAdClosed, OnAdError, OnAdErrorNoAds events
 - Minor fixes
 
