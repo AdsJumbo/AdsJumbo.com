@@ -1,0 +1,46 @@
+﻿<UserControl
+    x:Class="AdsJumbo.InterstitialAd"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdsJumbo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid x:Name="AdsPopupLayout">
+        <Grid x:Name="popupad" Background="Black" Visibility="Collapsed">
+
+            <WebView x:Name="banner"
+                        Visibility="Visible"
+                        HorizontalAlignment="Stretch"
+                        ScrollViewer.VerticalScrollMode="Disabled"
+                        ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                        DefaultBackgroundColor="Black"                   
+                        Canvas.ZIndex="51000" ScriptNotify="popupadWebview_ScriptNotify" />
+
+            <Grid x:Name="popupadClose" 
+                     Visibility="Collapsed"
+                     Margin="17"
+                     Background="Transparent"
+                     Width="45" 
+                     Height="45" 
+                     HorizontalAlignment="Right"
+                     VerticalAlignment="Top" 
+                     Canvas.ZIndex="51900" Tapped="popupadClose_Tapped" >
+                <Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                     Stretch="Uniform">
+                    <Canvas Width="53" Height="53">
+                        <Canvas.Resources/>
+                        <Canvas Name="surface1">
+                            <Path Name="path2" Fill="#FFFFFF" Data="M 39.078125 19.828125 L 35.171875 15.921875 L 27.5 23.621094 L 19.828125 15.921875 L 15.921875 19.828125 L 23.621094 27.5 L 15.921875 35.171875 L 19.828125 39.078125 L 27.5 31.378906 L 35.171875 39.078125 L 39.078125 35.171875 L 31.378906 27.5 Z M 39.078125 19.828125 " />
+                            <Path Name="path4" Fill="#FFFFFF" Data="M 27.5 0 C 12.3125 0 0 12.3125 0 27.5 C 0 42.6875 12.3125 55 27.5 55 C 42.6875 55 55 42.6875 55 27.5 C 55 12.3125 42.6875 0 27.5 0 Z M 27.5 50.023438 C 15.0625 50.023438 4.976562 39.9375 4.976562 27.5 C 4.976562 15.0625 15.0625 4.976562 27.5 4.976562 C 39.933594 4.992188 50.007812 15.066406 50.023438 27.5 C 50.023438 39.9375 39.9375 50.023438 27.5 50.023438 Z M 27.5 50.023438 " />
+                        </Canvas>
+                    </Canvas>
+                </Viewbox>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</UserControl>

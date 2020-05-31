@@ -1,0 +1,33 @@
+﻿<Page
+    xmlns:adsjumbo="using:AdsJumbo"
+    x:Class="AdsJumbo_Example_Native.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdsJumbo_Example_Native"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <!-- Ad Banner 160x600 -->
+        <adsjumbo:BannerAd x:ConnectionId='1' x:Name="bannerLeft" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"/>
+
+        <!-- Ad Banner 160x600 -->
+        <adsjumbo:BannerAd x:ConnectionId='2' x:Name="bannerRight" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Right"/>
+
+        <!-- Ad Banner 728x90 -->
+        <adsjumbo:BannerAd x:ConnectionId='3' x:Name="bannerBottom" 
+                           VerticalAlignment="Bottom"
+                           HorizontalAlignment="Center"/>
+
+        <!-- Interstitial Ad - this means POPUP ads -->
+        <adsjumbo:InterstitialAd x:ConnectionId='4' x:Name="bannerInterstitial" />
+        
+    </Grid>
+</Page>
+
