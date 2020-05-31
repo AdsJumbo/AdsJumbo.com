@@ -45,11 +45,11 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
-<pre><code> <adsjumbo:BannerAd x:Name="banner" 
+<pre><code> < adsjumbo:BannerAd x:Name="banner" 
                            VerticalAlignment="Center"
-                           HorizontalAlignment="Left"/>
+                           HorizontalAlignment="Left" / >
                            
-<adsjumbo:InterstitialAd x:Name="bannerInterstitial" /> </code></pre>
+< adsjumbo:InterstitialAd x:Name="bannerInterstitial" / > </code></pre>
 
 Ad Tag you get when you login into your DASHBOARD - MY APPS - SELECT YOUR APP - GET AD TAG:<br/>
 Get your Ad Tags at: https://adsjumbo.com/login
@@ -127,7 +127,11 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 
 - In the Grid or anywhere on the XAML page just add Ad tag:<br/>
 <pre><code>
-< adsjumbo:BannerAd x:Name="bannerAd" VerticalAlignment="Center" HorizontalAlignment="Left" / >
+ < adsjumbo:BannerAd x:Name="bannerLeft" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left" / >
+                           
+ < adsjumbo:InterstitialAd x:Name="bannerInterstitial" / >
 </code> </pre>
 
 - For banner ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
