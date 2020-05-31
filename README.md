@@ -110,7 +110,8 @@ Invoke an Interstitial Ads:
 
 # For C++ / IL2CPP / DirectX apps & games
 Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects and IL2CPP Unity3D games.
-This allows you to display banner and interstitial advertisements in the C++ apps & games published in the Windows Store. Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/
+This allows you to display banner and interstitial advertisements in the C++ apps & games published in the Windows Store.</br> 
+Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/
 
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.Native’ in your nuget Package Manager console. Download latest version.<br/>
