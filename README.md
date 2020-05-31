@@ -106,6 +106,35 @@ LayoutRoot.Children.Add(interstitialads);                           // Load in G
 Invoke an Interstitial Ads:
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 
+# For C++ / IL2CPP / DirectX:
+Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects only or IL2CPP Unity3D games
+# Step 1: Adding References - NuGet package
+Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.Native’ in your nuget Package Manager console. Download latest version.<br/>
+Just click on button ‘Install‘ and that's all.<br/>
+Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
+
+# Step 2: Add XAML code and C++ code and invoke an advertisement 
+Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
+- In the Header section:
+<pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
+
+- In the Grid or anywhere on the XAML page just add Ad tag:<br/>
+ <pre><code><adsjumbo:BannerAd x:Name="bannerAd" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"/>
+
+<adsjumbo:InterstitialAd x:Name="bannerInterstitial" /></code></pre>
+
+- For banner ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
+<pre><code>bannerLeft->showBanner("your_app_id", 160, 600);</code></pre>
+
+- For interstitial ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
+<pre><code>bannerInterstitial->showInterstitial("your_app_id");</code></pre>
+
+# Step 3: Submit the App to the Review process
+Hit the button "Request Activation"</br>
+When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+
 # Examples:
 - For Windows 10 Project, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example</a>
