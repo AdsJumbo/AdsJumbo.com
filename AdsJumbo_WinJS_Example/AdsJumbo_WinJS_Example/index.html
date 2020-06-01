@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AdsJumbo_WinJS_Example</title>
+    <script src="https://adsjumbo.com/sdk_file_is_provided_on_request_email_us"></script> <!-- Please contact us at info@adsjumbo.com, An SDK link via JS will be provided to you. -->
+
+    <!--
+            HTML5 SDK - Implementation in simple 3 steps:
+            How to implement AdsJumbo SDK to WinJS apps?
+
+            STEP 1:
+            - Add Content URI in "Package.appxmanifest" - 2x URL:
+              https://adsjumbo.com
+              ms-appx-web:///
+
+            - Add following rows into your index.html file (head section or body section).
+              <script src="https://adsjumbo.com/sdk_file_is_provided_on_request_email_us"></script> - Please contact us at info@adsjumbo.com, An SDK link via JS will be provided to you.
+
+            STEP 2:
+            - Add div into body and define id you can also add your own css style
+              <div id="div_id_1" style="position: absolute; top: 50%; margin-top:-300px; left: 0px; width: 160px; height: 600px; z-index: 1;"></div>
+              <div id="div_id_2"></div>
+
+            STEP 3:
+            - Invoke an advertisement in Javascript code, now you must call:
+              For banner ads:
+                sdk.showBanner("your_app_id", width, height, "div_id_1") in your app to show ads. Must be filled only 4 parameters: your_app_id, width, height, id
+              For interstitial ads:
+                sdk.showInterstitial("your_app_id", "div_id_2") in your app to show ads. Must be filled only 2 parameters: your_app_id, id
+
+            Example:
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined' && sdk.showInterstitial !== 'undefined') {
+                sdk.showBanner("your_app_id", 160, 600, "#bannerAdLeft");
+                sdk.showInterstitial("your_app_id", "#interstitialAd");
+            }
+
+            All Supporting Ad Sizes for Banner Ads:
+            - 728x90
+            - 160x600
+            - 300x250
+            - 300x600
+            - 160x1000 (Full Size Skyscaper Banner)
+            - 320x50
+            - 468x60
+
+            And of course interstitial ads (fullscreen / popup):
+            <div id="interstitialAd"></div>
+
+            Invoke interstitial ads simply:
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined' && sdk.showInterstitial !== 'undefined') {
+                sdk.showInterstitial("your_app_id", "#interstitialAd");
+            }
+
+            Some questions or any feedback?
+            If you have any technical questions or comments, please email us at: info@adsjumbo.com
+            Or simply check documentation at: https://adsjumbo.com/sdk
+        -->
+
+</head>
+<body>
+    <!-- Banner 160x600 -->
+    <div id="bannerAdLeft" style="position: absolute; top: 50%; margin-top:-300px; left: 0px; width: 160px; height: 600px; z-index: 1;"></div>
+
+    <!-- Banner 160x600 -->
+    <div id="bannerAdRight" style="position: absolute; top: 50%; margin-top:-300px; right: 0px; width: 160px; height: 600px; z-index: 1;"></div>
+
+    <!-- Banner 728x90 -->
+    <div id="bannerAdBottom" style="position: absolute; bottom: 0px; left: 0px; right:0px; width: 728px; height: 90px;  margin:0 auto; z-index: 1;"></div>
+
+    <!-- Interstitial Ads -->
+    <div id="interstitialAd"></div>
+
+    <!-- Show an advertisement -->
+    <script>
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined' && sdk.showInterstitial !== 'undefined') {
+            
+            sdk.showBanner("your_app_id", 160, 600, "#bannerAdLeft");  // Show banner ad left   = in size 160x600
+            sdk.showBanner("your_app_id", 160, 600, "#bannerAdRight"); // Show banner ad right  = in size 160x600
+            sdk.showBanner("your_app_id", 728, 90, "#bannerAdBottom"); // Show banner ad bottom = in size 728x90
+
+            sdk.showInterstitial("your_app_id", "#interstitialAd");    // Show interstitial ad
+        }
+    </script>
+</body>
+</html>
