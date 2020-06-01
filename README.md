@@ -162,7 +162,8 @@ NOTE: The limit of ads units in the app is not limited, it's up to you.
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
 
 Please always install the latest version of the NuGet package available at https://www.nuget.org/packages/AdsJumbo/
-The SDK is constantly updated and maintained.
+</br>
+The AdsJumbo SDK is constantly updated and maintained.
 
 # UPDATE NOTES:
 - New NuGet package for C++ / DirectX / IL2CPP / Unity3D IL2CPP games
