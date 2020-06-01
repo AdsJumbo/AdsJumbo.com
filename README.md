@@ -156,6 +156,9 @@ NOTE: The limit of ads units in the app is not limited, it's up to you.
 - For IL2CPP Unity3D games - Windows 10, please download and open:</br>
 <a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_Example_IL2CPP_Unity3D</a>
 
+- For WinJS apps & games - Windows 10, please download and open:</br>
+<a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_Example_IL2CPP_Unity3D</a>
+
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
 
 Please always install the latest version of the NuGet package available at https://www.nuget.org/packages/AdsJumbo/
