@@ -12,7 +12,7 @@ AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML) and Unity3D Games<
 <pre>
 C#                       = <a href="https://www.nuget.org/packages/AdsJumbo/">NuGet package</a></br>
 C++ / IL2CPP / DirectX   = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for C++ apps and IL2CPP games</a></br>
-WinJS SDK                = SDK via Javascript is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>.
+WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>.
 </pre></br>
 If you have any questions about SDK or need help with implementation, please email us at:
 info@adsjumbo.com
@@ -59,7 +59,7 @@ Get your Ad Tags at: https://adsjumbo.com/login
  
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
-When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ads units in the app is not limited, it's up to you.
 
 # Supporting Ad Sizes:
@@ -140,7 +140,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
-When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!
+When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ads units in the app is not limited, it's up to you.
 
 # Examples:
