@@ -151,10 +151,10 @@ NOTE: The limit of ads units in the app is not limited, it's up to you.
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Unity3D</a>
 
 - For C++ apps - Windows 10, please download and open:</br>
-<a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example_Native</a>
+<a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Native_Example</a>
 
 - For IL2CPP Unity3D games - Windows 10, please download and open:</br>
-<a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_Example_IL2CPP_Unity3D</a>
+<a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_L2CPP_Unity3D_Example</a>
 
 - For WinJS apps & games - Windows 10, please download and open:</br>
 <a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_WinJS_Example</a>
