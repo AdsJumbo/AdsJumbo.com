@@ -60,7 +60,7 @@ Get your Ad Tags at: https://adsjumbo.com/login
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
-NOTE: The limit of ads units in the app is not limited, it's up to you.
+NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
 
 # Supporting Ad Sizes:
 Banner Ads:
@@ -141,7 +141,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
-NOTE: The limit of ads units in the app is not limited, it's up to you.
+NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
 
 # Examples:
 - For Windows 10 Project, please download and open:</br>
