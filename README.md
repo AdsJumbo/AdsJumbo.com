@@ -166,6 +166,7 @@ Please always install the latest version of the NuGet package available at https
 The AdsJumbo SDK is constantly updated and maintained.
 
 # UPDATE NOTES:
+- Added support for C++ - architecture x64 and ARM
 - New NuGet package for C++ / DirectX / IL2CPP / Unity3D IL2CPP games
 - New SDK for WinJS (for Windows 10 apps based on HTML5 and JavaScript)
 - Updated GitHub documentation
