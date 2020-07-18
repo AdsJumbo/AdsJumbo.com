@@ -7,7 +7,6 @@ This repository contains the AdsJumbo.com SDK for apps & games. This allows you 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
 AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML, C++ / IL2CPP / DirectX, WinJS) and Unity3D Games</br>
-Supported architecture x86, x64 and ARM
 
 # AdsJumbo SDK is available for all UWP projects:</br>
 <pre>
@@ -19,7 +18,8 @@ If you have any questions about SDK or need help with implementation, please ema
 info@adsjumbo.com
 
 # Monetize with AdsJumbo Ads
-Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement into your existing Windows 10 & UWP application or game (also Unity 3D game).
+Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement into your existing Windows 10 & UWP application or game (also Unity 3D game). </br></br>
+Supported architecture x86, x64 and ARM
 
 # Ad Formats:
 # 1. Banner Ads
