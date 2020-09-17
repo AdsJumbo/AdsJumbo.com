@@ -201,7 +201,7 @@ Please always install the latest version of the NuGet package available at https
 The AdsJumbo SDK is constantly updated and maintained.</br>
 Always install the latest release of SDK which which is maintained.
 
-# UPDATE NOTES:
+# ✔️ UPDATE NOTES:
 - Added support for WinForm and WPF apps & games
 - Added support for C++ architecture x64 and ARM
 - New NuGet package for C++ / DirectX / IL2CPP / Unity3D IL2CPP games
@@ -210,7 +210,7 @@ Always install the latest release of SDK which which is maintained.
 - Added OnAdClosed, OnAdError, OnAdErrorNoAds events
 - Minor fixes
 
-# FAQ:
+# ❓ FAQ:
 How much time will it take to implement the SDK?</br>
 - Implementation usually takes 3-5 minutes. It's very easy and simple even for beginners.</br>
 
@@ -227,7 +227,7 @@ Can I use more ad units on same page / app?</br>
 - Yes, definitely. You can use multiple ad units on a page / app. At the same time, We recommend using at least one interstitial ad for better performance in term if revenue.
 </br>
 
-# Support:
+# 🚩 Support:
 If you have any technical questions or comments, please email us at:
 info@adsjumbo.com
 
