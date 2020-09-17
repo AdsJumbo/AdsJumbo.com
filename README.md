@@ -190,11 +190,14 @@ NOTE: The limit of ad units in the app is not limited, you can use them as much 
 - For WinJS apps & games - Windows 10, please download and open:</br>
 <a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_WinJS_Example</a>
 
+- For WinForm / WPF apps & games - advertising for desktop apps, please download and open:</br>
+<a href="https://drive.google.com/file/d/1sMGe4KOQ0fKndj-bxqm1PpiaQ-vnUOHf/">AdsJumbo_WinForm_Example</a>
+
 Download all examples: <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">Download Here</a>
 
 Please always install the latest version of the NuGet package available at https://www.nuget.org/packages/AdsJumbo/
 </br>
-The AdsJumbo SDK is constantly updated and maintained.
+The AdsJumbo SDK is constantly updated and maintained.</br>
 Always install the latest release of SDK which which is maintained.
 
 # UPDATE NOTES:
