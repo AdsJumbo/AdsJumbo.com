@@ -18,7 +18,7 @@ namespace AdsJumbo_WinForm_Example
 
             /*
             SUPPORTED FRAMEWORK:
-            .NET Framework 4.6.2 or above
+            - .NET Framework 4.6.2 or above
             
             All Supported Ad Sizes and Ad Types:
 
