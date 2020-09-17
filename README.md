@@ -217,7 +217,7 @@ Why I must add content URI in "Package.appxmanifest"?</br>
 - This is only needed for the interstitial unit, to invoke event "close ad". This value allows you to close the interstitial ad. If you don't want to use it in your app, you don't have to, but then you won't be able to use interstitial ads thus only banner ads</br>
 
 When are available "live" ads?</br>
-- Live ads are available after approval your app or game. Just add your app, hit the button "submit to review", this is routine check by our QA team. If you have any problems with SDK implementation or any questions do not hesitate to contact us at: info@adsjumbo.com</br>
+- Live ads are available after approval your app or game. Just add your app, hit the button "submit to review", this is routine check by our QA team. If you have any problems with SDK implementation or any questions do not hesitate to <a href="mailto:info@adsjumbo.com"> contact us.</a></br>
 
 Is there any exclusivity ?</br>
 - Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. It is always important your satisfaction. </br>
