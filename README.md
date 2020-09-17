@@ -230,5 +230,5 @@ Can I use more ad units on same page / app?</br>
 If you have any technical questions or comments, please email us at:
 info@adsjumbo.com
 
-Or simply check documentation at:
+Or simply check GitHub documentation here or at:
 https://adsjumbo.com/sdk
