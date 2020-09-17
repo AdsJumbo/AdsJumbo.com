@@ -148,7 +148,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 # Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
-NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
+NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.<br/>
 
 # For WinForm / WPF apps & games
 Please download package from NuGet called "AdsJumbo.WinForm.WPF" - this package is for WinForm / WPF apps & games.
@@ -217,8 +217,7 @@ When are available "live" ads?</br>
 - Live ads are available after approval your app or game. Just add your app, hit the button "submit to review", this is routine check by our QA team. If you have any problems with SDK implementation or any questions do not hesitate to contact us.</br>
 
 Is there any exclusivity ?</br>
-- Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. It is always important your satisfaction.
-</br>
+- Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. It is always important your satisfaction. </br>
 
 Can I use more ad units on same page / app?</br>
 - Yes, definitely. You can use multiple ad units on a page / app. At the same time, We recommend using at least one interstitial ad for better performance in term if revenue.
