@@ -17,7 +17,7 @@ Always install the latest release of SDK which which is maintained.
 <pre>
 C#                       = <a href="https://www.nuget.org/packages/AdsJumbo/">NuGet package</a></br>
 C++ / IL2CPP / DirectX   = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for C++ apps and IL2CPP games</a></br>
-WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>
+WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a></br>
 WinForm / WPF            = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for WinForm & WPF apps and games</a></br>
 </pre></br>
 If you have any questions about SDK or need help with implementation, please email us at:
