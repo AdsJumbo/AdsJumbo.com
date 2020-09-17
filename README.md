@@ -113,7 +113,7 @@ LayoutRoot.Children.Add(interstitialads);                           // Load in G
 
 Invoke an Interstitial Ads:
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
-
+<br/><br/>
 # For C++ / IL2CPP / DirectX apps & games
 Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects and IL2CPP Unity3D games.
 This allows you to display banner and interstitial ads in the C++ apps & games published in the Windows Store.</br> 
