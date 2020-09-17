@@ -17,7 +17,6 @@ namespace AdsJumbo_WinForm_Example
             InitializeComponent();
 
             /*
-            
             SUPPORTED FRAMEWORK:
             .NET Framework 4.6.2 or above
             
@@ -33,7 +32,6 @@ namespace AdsJumbo_WinForm_Example
 
             INTERSTITIAL:
            - Interstital Ads (fullscreen / popup ads)
-
            */
 
             // Show Ad Banner 728x90 - define: width, height, your_app_id
