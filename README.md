@@ -149,7 +149,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.<br/>
-
+<br/><br/>
 # For WinForm / WPF apps & games
 Please download package from NuGet called "AdsJumbo.WinForm.WPF" - this package is for WinForm / WPF apps & games.
 This allows you to display banner and interstitial ads in the dekstop apps & games or on any WinForm and WPF apps</br> 
