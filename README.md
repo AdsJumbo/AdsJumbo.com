@@ -2,17 +2,23 @@
 <img src="https://adsjumbo.com/windows-store.png" width="100" alt="AdsJumbo.com - Windows Store Advertising SDK" data-canonical-src="https://adsjumbo.com/windows-store.png">
 
 # AdsJumbo.com-SDK: Advertising SDK
-This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store. https://AdsJumbo.com
+This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store and in Windows Apps (desktop apps WinForm & WPF apps). https://AdsJumbo.com
 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
-AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML, C++ / IL2CPP / DirectX, WinJS) and Unity3D Games</br>
+AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML, C++ / IL2CPP / DirectX, WinJS), Unity3D Games and WinForm & WPF apps</br>
+
+LAST UPDATE: 
+- Added C++ / DirectX / IL2CPP / Unity3D IL2CPP games <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package</a></br>
+- Added WinForm and WPF support <a href="https://www.nuget.org/packages/AdsJumbo.WinForm.WPF/">NuGet package</a></br>
+Always install the latest release of SDK which which is maintained.
 
 # AdsJumbo SDK is available for all UWP projects:</br>
 <pre>
 C#                       = <a href="https://www.nuget.org/packages/AdsJumbo/">NuGet package</a></br>
 C++ / IL2CPP / DirectX   = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for C++ apps and IL2CPP games</a></br>
-WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>.
+WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a>
+WinForm / WPF            = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for WinForm & WPF apps and games</a></br>
 </pre></br>
 If you have any questions about SDK or need help with implementation, please email us at:
 info@adsjumbo.com
@@ -112,14 +118,15 @@ Invoke an Interstitial Ads:
 # For C++ / IL2CPP / DirectX apps & games
 Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects and IL2CPP Unity3D games.
 This allows you to display banner and interstitial ads in the C++ apps & games published in the Windows Store.</br> 
-Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/
+Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/</br> 
+Please follow steps below, implementation takes almost 3-5 minutes.
 
-# Step 1: Adding References - NuGet package
+# Step 1: Adding References - NuGet package (For C++ / IL2CPP)
 Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.Native’ in your nuget Package Manager console. Download latest version.<br/>
 Just click on button ‘Install‘ and that's all.<br/>
 Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
 
-# Step 2: Add XAML code and C++ code
+# Step 2: Add XAML code and C++ code (For C++ / IL2CPP)
 Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
@@ -139,7 +146,31 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - For interstitial ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
 <pre><code>bannerInterstitial->showInterstitial("your_app_id");</code></pre>
 
-# Step 3: Submit the App to the Review process
+# Step 3: Submit the App to the Review process (For C++ / IL2CPP)
+Hit the button "Request Activation"</br>
+When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
+NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
+
+# For WinForm / WPF apps & games
+Please download package from NuGet called "AdsJumbo.WinForm.WPF" - this package is for WinForm / WPF apps & games.
+This allows you to display banner and interstitial ads in the dekstop apps & games or on any WinForm and WPF apps</br> 
+Download at NuGet: https://www.nuget.org/packages/AdsJumbo.WinForm.WPF/
+
+# Step 1: Adding References - NuGet package (for WinForm / WPF apps & games)
+Import the AdsJumbo.WinForm.WPF SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.WinForm.WPF’ in your nuget Package Manager console. Download latest version.<br/>
+Just click on button ‘Install‘ and that's all.<br/>
+
+# Step 2: Add your ad unit and invoke advertisement (for WinForm / WPF apps & games)
+Drag and drop ad unit in your designer from menu "Toolbox" - "AdsJumboWinForm" - "BannerAds" or "InterstitialAds":<br/>
+Place that ad unit component anywhere in your WinForm app, you can use more ad units on same page We recommend using at least one interstitial ad for better performance in term if revenue. 
+
+- For banner ad, please invoke in .cs code (width ad, height ad, define APP ID,)
+<pre><code>bannerAds.ShowAd(728, 90, "your_app_id");</code></pre>
+
+- For interstitial ad, please invoke in .cs code in the appropriate moment (use as many times as you like):
+<pre><code>interstitialAd.ShowInterstitialAd("your_app_id");</code></pre>
+
+# Step 3: Submit the App to the Review process (for WinForm / WPF apps & games)
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
@@ -167,12 +198,31 @@ Please always install the latest version of the NuGet package available at https
 The AdsJumbo SDK is constantly updated and maintained.
 
 # UPDATE NOTES:
+- Added support for WinForm and WPF apps & games
 - Added support for C++ architecture x64 and ARM
 - New NuGet package for C++ / DirectX / IL2CPP / Unity3D IL2CPP games
 - New SDK for WinJS (for Windows 10 apps based on HTML5 and JavaScript)
 - Updated GitHub documentation
 - Added OnAdClosed, OnAdError, OnAdErrorNoAds events
 - Minor fixes
+
+# FAQ:
+How much time will it take to implement the SDK?</br>
+- Implementation usually takes 3-5 minutes. It's very easy and simple even for beginners.</br>
+
+Why I must add content URI in "Package.appxmanifest"?</br>
+- This is only needed for the interstitial unit, to invoke event "close ad". This value allows you to close the interstitial ad. If you don't want to use it in your app, you don't have to, but then you won't be able to use interstitial ads thus only banner ads</br>
+
+When are available "live" ads?</br>
+- Live ads are available after approval your app or game. Just add your app, hit the button "submit to review", this is routine check by our QA team. If you have any problems with SDK implementation or any questions do not hesitate to contact us.</br>
+
+Is there any exclusivity ?</br>
+- Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. It is always important your satisfaction.
+</br>
+
+Can I use more ad units on same page / app?</br>
+- Yes, definitely. You can use multiple ad units on a page / app. At the same time, We recommend using at least one interstitial ad for better performance in term if revenue.
+</br>
 
 # Support:
 If you have any technical questions or comments, please email us at:
