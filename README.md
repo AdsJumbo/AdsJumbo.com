@@ -36,7 +36,7 @@ These are full-screen ads that typically require the user to click through to co
 # 3. Native Ads
 These are component-based ads - each piece of the advertiser's creative - is delivered to the app or web page as individual elements that you can choose to stitch into your page in any manner that fits your scenario the best. You can generate an ad creative optimizing on the style, look and feel and behavior to be very similar to the rest of your app screen or page in order to keep the most unobtrusive end user experience.
 
-# Getting Started
+# 🔴 Getting Started
 # Step 1: Adding References - NuGet package
 Import the AdsJumbo SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo’ in your nuget Package Manager console. Download latest version.<br/>
 Just click on button ‘Install‘ and that's all. (Don't forget to install all depencies Newtonsoft.Json>= 9.0.1)
@@ -115,7 +115,7 @@ LayoutRoot.Children.Add(interstitialads);                           // Load in G
 Invoke an Interstitial Ads:
 <pre><code>InterstitialAd.ShowInterstitialAd();</code></pre>
 <br/><br/>
-# For C++ / IL2CPP / DirectX apps & games
+# 🔴 For C++ / IL2CPP / DirectX apps & games
 Please download package from NuGet called "AdsJumbo.Native" - this package is for C ++ projects and IL2CPP Unity3D games.
 This allows you to display banner and interstitial ads in the C++ apps & games published in the Windows Store.</br> 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/</br> 
@@ -151,7 +151,7 @@ Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.<br/>
 <br/><br/>
-# For WinForm / WPF apps & games
+# 🔴 For WinForm / WPF apps & games
 Please download package from NuGet called "AdsJumbo.WinForm.WPF" - this package is for WinForm / WPF apps & games.
 This allows you to display banner and interstitial ads in the dekstop apps & games or on any WinForm and WPF apps</br> 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo.WinForm.WPF/
