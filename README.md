@@ -220,7 +220,7 @@ When are available "live" ads?</br>
 - Live ads are available after approval your app or game. Just add your app, hit the button "submit to review", this is routine check by our QA team. If you have any problems with SDK implementation or any questions do not hesitate to <a href="mailto:info@adsjumbo.com"> contact us.</a></br>
 
 Is there any exclusivity ?</br>
-- Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. It is always important your satisfaction. </br>
+- Definitely no! It is always up to what you to decide. You can use more ad providers at the same time to increase your earnings. With us there is no condition of exclusivity. Your satisfaction is always important.</br>
 
 Can I use more ad units on same page / app?</br>
 - Yes, definitely. You can use multiple ad units on a page / app. At the same time, We recommend using at least one interstitial ad for better performance in term if revenue.
