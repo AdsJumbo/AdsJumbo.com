@@ -175,7 +175,7 @@ Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
 
-# Examples:
+# 🚩 Examples:
 - For Windows 10 Project, please download and open:</br>
 <a href="https://github.com/AdsJumbo/AdsJumbo.com/archive/master.zip">AdsJumbo_Example</a>
 
@@ -227,7 +227,7 @@ Can I use more ad units on same page / app?</br>
 - Yes, definitely. You can use multiple ad units on a page / app. At the same time, We recommend using at least one interstitial ad for better performance in term if revenue.
 </br>
 
-# 🚩 Support:
+# Support:
 If you have any technical questions or comments, please email us at:
 info@adsjumbo.com
 
