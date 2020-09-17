@@ -20,7 +20,7 @@ WinJS SDK                = SDK for HTML5 apps & games is provided on the request
 WinForm / WPF            = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for WinForm & WPF apps and games</a></br>
 </pre></br>
 If you have any questions about SDK or need help with implementation, please email us at:
-info@adsjumbo.com
+<a href="mailto:info@adsjumbo.com">info@adsjumbo.com</a></br>
 
 # Monetize with AdsJumbo Ads
 Increase your revenue opportunities by putting ads in your apps by using the AdsJumbo Advertising SDK. Our monetization platform offers a variety of ad types including banner ads, interstitial ads and native ads. Drive advertising revenue by choosing from a variety of ad formats that can be seamlessly integrated into your Windows apps and games. Our advertising SDK you can simply implement into your existing Windows 10 & UWP application or game (also Unity 3D game). </br></br>
