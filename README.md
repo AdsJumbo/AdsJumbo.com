@@ -3,7 +3,7 @@
 
 # AdsJumbo.com-SDK: Advertising SDK
 This repository contains the AdsJumbo.com SDK for apps & games. This allows you to display advertisements in the apps & games published in the Windows Store and in Windows Apps (desktop apps WinForm & WPF desktop apps). AdsJumbo.com provides ad solution for Windows 10 developers (Windows Store) and desktop developers (eg. Softpedia) <br/>
-🚀🕹💻📱 Visit: https://AdsJumbo.com 📱💻🕹🚀
+💻📱 Visit: https://AdsJumbo.com
 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
