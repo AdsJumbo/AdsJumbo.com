@@ -120,12 +120,12 @@ This allows you to display banner and interstitial ads in the C++ apps & games p
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo.Native/</br> 
 Please follow steps below, implementation takes almost 3-5 minutes.
 
-# Step 1: Adding References - NuGet package (For C++ / IL2CPP)
+# Step 1: Adding References - NuGet package
 Import the AdsJumbo.Native SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.Native’ in your nuget Package Manager console. Download latest version.<br/>
 Just click on button ‘Install‘ and that's all.<br/>
 Add Content URI in "Package.appxmanifest" - URL: https://adsjumbo.com/
 
-# Step 2: Add XAML code and C++ code (For C++ / IL2CPP)
+# Step 2: Add XAML code and C++ code
 Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - In the Header section:
 <pre><code>xmlns:adsjumbo="using:AdsJumbo"</code></pre>
@@ -145,7 +145,7 @@ Add in your XAML file (eg. MainPage.xaml) following codes:<br/>
 - For interstitial ad, please invoke in C++ code in the appropriate moment (use as many times as you like):
 <pre><code>bannerInterstitial->showInterstitial("your_app_id");</code></pre>
 
-# Step 3: Submit the App to the Review process (For C++ / IL2CPP)
+# Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
@@ -155,11 +155,11 @@ Please download package from NuGet called "AdsJumbo.WinForm.WPF" - this package 
 This allows you to display banner and interstitial ads in the dekstop apps & games or on any WinForm and WPF apps</br> 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo.WinForm.WPF/
 
-# Step 1: Adding References - NuGet package (for WinForm / WPF apps & games)
+# Step 1: Adding References - NuGet package
 Import the AdsJumbo.WinForm.WPF SDK as a reference as dependency of your Windows Visual Studio project. Click on ‘Manage NuGet Packages’, search name package ‘AdsJumbo.WinForm.WPF’ in your nuget Package Manager console. Download latest version.<br/>
 Just click on button ‘Install‘ and that's all.<br/>
 
-# Step 2: Add your ad unit and invoke advertisement (for WinForm / WPF apps & games)
+# Step 2: Add your ad unit and invoke advertisement
 Drag and drop ad unit in your designer from menu "Toolbox" - "AdsJumboWinForm" - "BannerAds" or "InterstitialAds":<br/>
 Place that ad unit component anywhere in your WinForm app, you can use more ad units on same page We recommend using at least one interstitial ad for better performance in term if revenue. 
 
@@ -169,7 +169,7 @@ Place that ad unit component anywhere in your WinForm app, you can use more ad u
 - For interstitial ad, please invoke in .cs code in the appropriate moment (use as many times as you like):
 <pre><code>interstitialAd.ShowInterstitialAd("your_app_id");</code></pre>
 
-# Step 3: Submit the App to the Review process (for WinForm / WPF apps & games)
+# Step 3: Submit the App to the Review process
 Hit the button "Request Activation"</br>
 When your game is approved, your ads will be live and you can see real-time reports under your dashboard and enjoy your earnings!</br>
 NOTE: The limit of ad units in the app is not limited, you can use them as much as you want.
