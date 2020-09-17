@@ -6,7 +6,7 @@ This repository contains the AdsJumbo.com SDK for apps & games. This allows you 
 
 Download at NuGet: https://www.nuget.org/packages/AdsJumbo/
 
-AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML, C++ / IL2CPP / DirectX, WinJS), Unity3D Games and WinForm & WPF apps</br>
+AdsJumbo SDK supports: Windows UWP Apps (Windows 10, C# XAML, C++ / IL2CPP / DirectX, WinJS), Unity3D Games (Windows Store) and WinForm & WPF desktop apps (eg. from Softpedia)</br>
 
 📌 LAST UPDATE: 
 - Added WinForm and WPF support <a href="https://www.nuget.org/packages/AdsJumbo.WinForm.WPF/">NuGet package for WinForm</a></br>
