@@ -19,7 +19,7 @@ C++ / IL2CPP / DirectX   = <a href="https://www.nuget.org/packages/AdsJumbo.Nati
 WinJS SDK                = SDK for HTML5 apps & games is provided on the request, <a href="mailto:info@adsjumbo.com">please contact us</a></br>
 WinForm / WPF            = <a href="https://www.nuget.org/packages/AdsJumbo.Native/">NuGet package for WinForm & WPF apps and games</a></br>
 </pre></br>
-If you have any questions about SDK or need help with implementation as well for additional framework or any platform, please email us at:
+If you have any questions about SDK or need help with implementation as well for additional framework or any .NET platform, please email us at:
 <a href="mailto:info@adsjumbo.com">info@adsjumbo.com</a></br>
 
 # Monetize with AdsJumbo Ads
