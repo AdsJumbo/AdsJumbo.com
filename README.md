@@ -161,7 +161,8 @@ Just click on button ‘Install‘ and that's all.<br/>
 
 # Step 2: Add your ad unit and invoke advertisement
 Drag and drop ad unit in your designer from menu "Toolbox" - "AdsJumboWinForm" - "BannerAds" or "InterstitialAds":<br/>
-Place that ad unit component anywhere in your WinForm app, you can use more ad units on same page We recommend using at least one interstitial ad for better performance in term if revenue. 
+Place that ad unit component anywhere in your WinForm app, you can use more ad units on same page.<br/>
+We recommend using at least one interstitial ad for better performance in terms if revenue. 
 
 - For banner ad, please invoke in .cs code (width ad, height ad, define APP ID,)
 <pre><code>bannerAds.ShowAd(728, 90, "your_app_id");</code></pre>
