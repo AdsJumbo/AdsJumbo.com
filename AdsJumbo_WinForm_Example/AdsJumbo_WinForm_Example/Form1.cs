@@ -56,7 +56,7 @@ namespace AdsJumbo_WinForm_Example
             ///// IMPORTANT! /////
             //////////////////////
             // In Form1.Designer.cs - Define always interstitial ad as a first in order, due to visibility on top / fullscreen without any disturbing elements, then our sdk can work as expected
-            // Please check this example - open Form1Degisner.cs
+            // Please check this example - open Form1.Degigner.cs
 
             // TIPS:
             // - The best place is to show an interstitial ad when the app is fully loaded (eg. OnNavigated or your can simple timer await Task.Delay(2000) event)
@@ -65,7 +65,7 @@ namespace AdsJumbo_WinForm_Example
 
             // CONTACT: 
             // info@adsjumbo.com
-            // We will be happy to help you with the implementation AdsJumbo SDK just write us!
+            // We will be glad to help you with the implementation of the AdsJumbo SDK, just email us!
 
             // NOTE: 
             // LIVE ADS ARE AVAILABLE WHEN YOUR APP / GAME IS APPROVED, JUST HIT BUTTON "SUBMIT TO REVIEW"
