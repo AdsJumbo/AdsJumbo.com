@@ -50,7 +50,7 @@ namespace AdsJumbo_WinForm_Example
             // bannerAds5.ShowAd(468, 60, "your_app_id");
 
             // Show Interstitial Ad - define your_app_id
-            interstitialAd1.ShowInterstitialAd("");
+            interstitialAd1.ShowInterstitialAd("your_app_id");
 
             ///////////////////////
             ///// IMPORTANT! /////
