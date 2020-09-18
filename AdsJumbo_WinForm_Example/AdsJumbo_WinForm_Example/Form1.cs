@@ -55,7 +55,7 @@ namespace AdsJumbo_WinForm_Example
             ///////////////////////
             ///// IMPORTANT! /////
             //////////////////////
-            // In Form1.Designer.cs - Define always interstitial ad as a first in order, due to visibility on top / fullscreen without any disturbing elements, then our sdk can work as expected
+            // In Form1.Designer.cs (designer mode) - Define always interstitial ad as a first in order, due to visibility on top / fullscreen without any disturbing elements, then our sdk can work as expected
             // Please check this example - open Form1.Degigner.cs
 
             // TIPS:
