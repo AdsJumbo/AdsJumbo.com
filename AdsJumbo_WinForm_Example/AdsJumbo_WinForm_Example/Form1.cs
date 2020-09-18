@@ -27,8 +27,8 @@ namespace AdsJumbo_WinForm_Example
            - 160x600
            - 300x250
            - 300x600
-           - 320x50
            - 468x60
+           - 320x50
 
             INTERSTITIAL:
            - Interstital Ads (fullscreen / popup ads)
